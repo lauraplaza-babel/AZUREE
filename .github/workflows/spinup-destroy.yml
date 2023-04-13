@@ -10,7 +10,7 @@ env:
   AZURE_APP_PLAN: actions-ttt-deployment
   AZURE_LOCATION: '"West Europe"'
   ###############################################
-  ### Replace <username> with GitHub username ###
+
   ###############################################
   AZURE_WEBAPP_NAME: lauraplaza-babel-ttt-app
 
