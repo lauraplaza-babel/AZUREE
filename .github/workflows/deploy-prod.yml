@@ -23,11 +23,11 @@ jobs:
       - name: npm install and build webpack
         run: |
           curl -s https://deb.nodesource.com/setup_16.x | sudo bash
-          sudo apt install nodejs -y
-          sudo npm install -g n
-          sudo n 16
-          npm install
-          npm run build
+          sudo apt install nodejs -y
+          sudo npm install -g n
+          sudo n 16
+          npm install
+          npm run build
 
       - uses: actions/upload-artifact@v3
         with:
